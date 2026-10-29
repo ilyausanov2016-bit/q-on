@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qon — IT-решения, которые двигают бизнес</title>
+  <meta name="description" content="Qon — российская IT-компания. Проектируем, разрабатываем и сопровождаем цифровую инфраструктуру бизнеса." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="logo-square.png" type="image/png" />
+</head>
+  <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("sVQ2jPfDY98XRIsyB"); 
+    })();
+  </script>-->
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <img src="logo-horizontal.png" alt="Qon" class="logo-img" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#philosophy">Философия</a>
+        <a href="#solutions">Решения</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#why">Почему Qon</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a href="#contacts" class="btn btn--primary btn--sm header__cta">Обсудить проект</a>
+
+      <button class="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <canvas id="particles" aria-hidden="true"></canvas>
+
+    <div class="container hero__inner">
+      <img src="logo-square.png" alt="Qon" class="hero-logo" data-reveal />
+
+      <h1 data-reveal data-delay="80">
+        IT-решения,<br />
+        которые <span class="gradient-text">двигают бизнес</span>
+      </h1>
+
+      <p class="hero__lead" data-reveal data-delay="160">
+        Проектируем, разрабатываем и сопровождаем цифровую инфраструктуру.
+        От первой строчки кода до поддержки 24/7 — берём на себя всё, что стоит
+        между вашей идеей и результатом.
+      </p>
+
+      <div class="hero__actions" data-reveal data-delay="240">
+        <a href="#contacts" class="btn btn--primary">Обсудить проект</a>
+        <a href="#solutions" class="btn btn--ghost">Наши решения</a>
+      </div>
+
+      <div class="hero__stats" data-reveal data-delay="320">
+        <div class="stat">
+          <span class="stat__num"><span data-count="12" data-suffix="">0</span></span>
+          <span class="stat__label">лет на рынке</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num"><span data-count="240" data-suffix="+">0</span></span>
+          <span class="stat__label">реализованных проектов</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num"><span data-count="98" data-suffix="%">0</span></span>
+          <span class="stat__label">клиентов возвращаются</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#philosophy" class="scroll-hint" aria-label="Прокрутить вниз">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ================= ФИЛОСОФИЯ ================= -->
+  <section class="section" id="philosophy">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-reveal>Философия Qon</span>
+        <h2 data-reveal data-delay="60">Три принципа, на которых<br />строится каждое решение</h2>
+        <p class="section__lead" data-reveal data-delay="120">
+          Мы не продаём часы работы инженеров. Мы продаём результат, который можно измерить.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card" data-reveal>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" />
+            </svg>
+          </div>
+          <h3>Быстрые решения</h3>
+          <p>Скорость — это не про спешку, а про отсутствие лишних согласований. Первый прототип показываем через две недели после старта.</p>
+        </article>
+
+        <article class="card" data-reveal data-delay="100">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3.2" />
+              <path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z" />
+            </svg>
+          </div>
+          <h3>Открытость</h3>
+          <p>Доступ к задачам, срокам и бюджету — в реальном времени. Вы всегда знаете, на каком этапе находится проект.</p>
+        </article>
+
+        <article class="card" data-reveal data-delay="200">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="1.6" />
+              <rect x="14" y="3" width="7" height="7" rx="1.6" />
+              <rect x="3" y="14" width="7" height="7" rx="1.6" />
+              <rect x="14" y="14" width="7" height="7" rx="1.6" />
+            </svg>
+          </div>
+          <h3>Системность</h3>
+          <p>Не «заплатки», а архитектура. Каждое решение проектируем так, чтобы через три года его не пришлось переписывать с нуля.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= РЕШЕНИЯ ================= -->
+  <section class="section section--alt" id="solutions">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-reveal>Экосистема решений</span>
+        <h2 data-reveal data-delay="60">Полный цикл IT-инфраструктуры</h2>
+        <p class="section__lead" data-reveal data-delay="120">
+          Шесть направлений, которые закрывают путь от идеи до стабильной работы в продакшене.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--service" data-reveal>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="8 6 2 12 8 18" /><polyline points="16 6 22 12 16 18" />
+            </svg>
+          </div>
+          <h3>Разработка ПО</h3>
+          <p>Веб-платформы, мобильные приложения, интеграции и внутренние сервисы под задачи бизнеса.</p>
+        </article>
+
+        <article class="card card--service" data-reveal data-delay="80">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="5" r="2.4" /><circle cx="5" cy="19" r="2.4" /><circle cx="19" cy="19" r="2.4" />
+              <path d="M12 7.4v4.2M12 11.6 5.8 17.2M12 11.6l6.2 5.6" />
+            </svg>
+          </div>
+          <h3>Сетевая инфраструктура</h3>
+          <p>Проектирование, монтаж и обслуживание сетей любой сложности — от офиса до распределённой сети филиалов.</p>
+        </article>
+
+        <article class="card card--service" data-reveal data-delay="160">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3.4" />
+              <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1" />
+            </svg>
+          </div>
+          <h3>Инженерные системы</h3>
+          <p>Слаботочные системы, видеонаблюдение, СКУД и диспетчеризация — под ключ, с гарантией.</p>
+        </article>
+
+        <article class="card card--service" data-reveal>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3 19 6v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+          </div>
+          <h3>Кибербезопасность</h3>
+          <p>Аудит, защита периметра, мониторинг инцидентов и соответствие требованиям регуляторов.</p>
+        </article>
+
+        <article class="card card--service" data-reveal data-delay="80">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 18a4 4 0 0 1 0-8 5.5 5.5 0 0 1 10.6 1.5A3.5 3.5 0 0 1 17.5 18H7z" />
+            </svg>
+          </div>
+          <h3>Облачные сервисы</h3>
+          <p>Миграция в облако, гибридные схемы, резервное копирование и отказоустойчивость.</p>
+        </article>
+
+        <article class="card card--service" data-reveal data-delay="160">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+              <rect x="2" y="14" width="4" height="6" rx="2" />
+              <rect x="18" y="14" width="4" height="6" rx="2" />
+            </svg>
+          </div>
+          <h3>Техническая поддержка</h3>
+          <p>Режим 24/7, SLA с фиксированным временем реакции и персональная команда инженеров.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= КЕЙСЫ ================= -->
+  <section class="section" id="cases">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-reveal>Кейсы и экспертиза</span>
+        <h2 data-reveal data-delay="60">Результат, который можно посчитать</h2>
+        <p class="section__lead" data-reveal data-delay="120">
+          Мы не показываем чужие логотипы — мы показываем цифры.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="case" data-reveal>
+          <span class="case__tag">Ритейл · 180+ точек</span>
+          <h3>Объединили разрозненную инфраструктуру</h3>
+          <p>Свели 180 торговых точек в единый контур с централизованным управлением и мониторингом.</p>
+          <div class="case__result">
+            <strong>−34%</strong><span>простоев оборудования</span>
+          </div>
+        </article>
+
+        <article class="case" data-reveal data-delay="100">
+          <span class="case__tag">Производство</span>
+          <h3>Внедрили систему мониторинга</h3>
+          <p>Собрали телеметрию с производственных линий и вывели её в единую диспетчерскую.</p>
+          <div class="case__result">
+            <strong>×2,4</strong><span>скорость реакции на сбои</span>
+          </div>
+        </article>
+
+        <article class="case" data-reveal data-delay="200">
+          <span class="case__tag">Финансовый сектор</span>
+          <h3>Построили защищённый контур</h3>
+          <p>Спроектировали и внедрили архитектуру с изоляцией критичных сервисов и контролем доступа.</p>
+          <div class="case__result">
+            <strong>0</strong><span>инцидентов за 18 месяцев</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ПОЧЕМУ QON ================= -->
+  <section class="section section--alt" id="why">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-reveal>Почему Qon</span>
+        <h2 data-reveal data-delay="60">Мы не говорим «невозможно»</h2>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="feature" data-reveal>
+          <span class="feature__num">01</span>
+          <div>
+            <h3>Говорим на языке бизнеса</h3>
+            <p>Не «мы подняли кластер», а «мы сократили время оформления заказа в три раза».</p>
+          </div>
+        </div>
+
+        <div class="feature" data-reveal data-delay="80">
+          <span class="feature__num">02</span>
+          <div>
+            <h3>Фиксируем сроки и бюджет</h3>
+            <p>Оценка в договоре — не «примерно», а обязательство. Изменения только через прозрачный процесс.</p>
+          </div>
+        </div>
+
+        <div class="feature" data-reveal data-delay="160">
+          <span class="feature__num">03</span>
+          <div>
+            <h3>Собственный штат инженеров</h3>
+            <p>Без субподряда на критичных этапах. Команда, которая знает ваш проект от и до.</p>
+          </div>
+        </div>
+
+        <div class="feature" data-reveal data-delay="240">
+          <span class="feature__num">04</span>
+          <div>
+            <h3>Прозрачная отчётность</h3>
+            <p>Еженедельный отчёт, доступ к задачам и бюджету в реальном времени.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= КОНТАКТЫ ================= -->
+  <section class="section" id="contacts">
+    <div class="container contact">
+      <div class="contact__info" data-reveal>
+        <span class="eyebrow">Контакты</span>
+        <h2>Начнём с разговора<br />о вашей задаче</h2>
+        <p class="section__lead">
+          Расскажите, что нужно сделать. Ответим в течение рабочего дня и предложим
+          следующий шаг — без обязательств.
+        </p>
+
+        <ul class="contact__list">
+          <li><span>Почта</span><a href="mailto:helvu@qgroupp.com">helvu@qgroupp.com</a></li>
+          <li><span>Телефон</span><a href="tel:+79104517065">+7(910)451-70-65</a></li>
+          <li><span>Офисы</span>Москва </li>
+        </ul>
+      </div>
+
+      <!-- ВРЕМЕННО СКРЫТО: Форма отправки заявки --
+      <form class="contact-form" data-reveal data-delay="120" novalidate>
+        <div class="field">
+          <label for="name">Имя</label>
+          <input id="name" name="name" type="text" placeholder="Как к вам обращаться" required />
+        </div>
+
+        <div class="field">
+          <label for="company">Компания</label>
+          <input id="company" name="company" type="text" placeholder="Название компании" />
+        </div>
+
+        <div class="field">
+          <label for="contact">Почта или телефон</label>
+          <input id="contact" name="contact" type="text" placeholder="Куда ответить" required />
+        </div>
+
+        <div class="field">
+          <label for="message">Задача</label>
+          <textarea id="message" name="message" rows="4" placeholder="Коротко о том, что нужно сделать"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.</p>
+      </form>-->
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo">
+        <img src="logo-horizontal.png" alt="Qon" class="logo-img" />
+      </a>
+      <p>© 2026 Qon. IT-решения для бизнеса.</p>
+      <a href="#contacts" class="footer__link">Связаться с нами</a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
